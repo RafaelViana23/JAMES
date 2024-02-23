@@ -120,6 +120,11 @@ function speakThis(message) {
         const finalText = "acesso permitido, bem vindo senhor Filipe, agora você tem acesso total ao sistema";
         speech.text = finalText;
     }
+
+    else if (message.includes('código chefe')) {
+        const finalText = "acesso permitido, bem vindo senhor Paulo, agora você tem acesso total ao sistema";
+        speech.text = finalText;
+    }
     
     else if (message.includes('ativar')) {
         const finalText = "Ativando sistema, acesso permitido, Rafael 23, 0, 5, sistema online";
