@@ -86,8 +86,8 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-    else if (message.includes('alan')) {
-        const finalText = "puta que pariu coxa desgramado, vai arrumar um emprego";
+    else if (message.includes('com alan')) {
+        const finalText = "Puta que pariu coxa desgramado, vai arrumar um emprego";
         speech.text = finalText;
     }
 
