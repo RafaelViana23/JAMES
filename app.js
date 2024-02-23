@@ -100,6 +100,11 @@ function speakThis(message) {
         const finalText = "Tá achando que eu sou o Elon Musk seu poha";
         speech.text = finalText;
     }
+
+    else if (message.includes('qual meu saldo')) {
+        const finalText = "Com a última atualização, seu saldo é de 1.570.000 dólares";
+        speech.text = finalText;
+    }
     
     else if (message.includes('quem é você')) {
         const finalText = "Meu nome é James, sou um assistente virtual Senhor";
