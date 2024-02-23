@@ -116,7 +116,7 @@ function speakThis(message) {
         speech.text = finalText;
     } 
 
-     else if (message.includes('código chefe') || message.includes('código chef')) {
+     else if (message.includes('código silvério 1')) {
         const finalText = "Acesso permitido, bem vindo senhor Paulo, agora você tem acesso total ao sistema";
         speech.text = finalText;
     }
