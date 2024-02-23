@@ -95,6 +95,11 @@ function speakThis(message) {
         const finalText = "Aqui é bolsa neles porra, petista, é meu ovo esquerdo";
         speech.text = finalText;
     }
+
+    else if (message.includes('hackear a nasa')) {
+        const finalText = "Tá achando que eu sou o Elon Musk seu poha";
+        speech.text = finalText;
+    }
     
     else if (message.includes('quem é você')) {
         const finalText = "Meu nome é James, sou um assistente virtual Senhor";
