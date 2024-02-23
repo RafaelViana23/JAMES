@@ -101,7 +101,7 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-    else if (message.includes('qual meu saldo')) {
+    else if (message.includes('qual o meu saldo')) {
         const finalText = "Com a última atualização, seu saldo é de 1.570.000 dólares";
         speech.text = finalText;
     }
