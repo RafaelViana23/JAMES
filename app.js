@@ -116,17 +116,12 @@ function speakThis(message) {
         speech.text = finalText;
     } 
 
-     else if (message.includes('código silvério um')) {
-        const finalText = "Acesso permitido, bem vindo senhor Paulo, agora você tem acesso total ao sistema";
-        speech.text = finalText;
-    }
-
     else if (message.includes('protocolo base')) {
         const finalText = "Acesso permitido, bem vindo senhor Filepe, agora você tem acesso total ao sistema";
         speech.text = finalText;
     }
 
-    else if (message.includes('protocolo chefe')) {
+    else if (message.includes('protocolo chefe') || message.includes('protocolo chef')) {
         const finalText = "Acesso permitido, bem vindo senhor Paulo, agora você tem acesso total ao sistema";
         speech.text = finalText;
     }
