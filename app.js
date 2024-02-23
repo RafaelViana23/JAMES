@@ -121,12 +121,12 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-    else if (message.includes('código pai')) {
-        const finalText = "acesso permitido, bem vindo senhor Paulo, agora você tem acesso total ao sistema";
+    else if (message.includes('ativar código pai')) {
+        const finalText = "Acesso permitido, bem vindo senhor Paulo, agora você tem acesso total ao sistema";
         speech.text = finalText;
     }
     
-    else if (message.includes('ativar')) {
+    else if (message.includes('ativar sistema')) {
         const finalText = "Ativando sistema, acesso permitido, Rafael 23, 0, 5, sistema online";
         speech.text = finalText;
 
