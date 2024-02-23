@@ -86,11 +86,6 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-    else if (message.includes('com alan')) {
-        const finalText = "Puta que pariu coxa preguiçoso, vai arrumar um emprego";
-        speech.text = finalText;
-    }
-
     else if (message.includes('carol')) {
         const finalText = "Nem fudendo, vai que ela me pede dinheiro";
         speech.text = finalText;
