@@ -115,6 +115,11 @@ function speakThis(message) {
         const finalText = "Boa noite senhor, como posso ajudar hoje?";
         speech.text = finalText;
     } 
+
+        if (message.includes('derek') || message.includes('beizze')) {
+        const finalText = "acesso permitido, bem vindo senhor Filipe, agora você tem acesso total ao sistema";
+        speech.text = finalText;
+    }
     
     else if (message.includes('ativar')) {
         const finalText = "Ativando sistema, acesso permitido, Rafael 23, 0, 5, sistema online";
