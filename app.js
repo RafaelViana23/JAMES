@@ -77,12 +77,17 @@ function speakThis(message) {
     } 
 
     else if (message.includes('mel')) {
-        const finalText = "fala comigo memel, sua cachorra do carai";
+        const finalText = "Fala comigo memel, sua cachorra do carai";
         speech.text = finalText;
     }
 
     else if (message.includes('julius')) {
-        const finalText = "fala comigo Juliôs seu careca, me empresta 10 pila aí meu bom";
+        const finalText = "Fala comigo Juliôs seu careca, me empresta 10 pila aí meu bom";
+        speech.text = finalText;
+    }
+
+    else if (message.includes('pede desculpa')) {
+        const finalText = "Foi mal Juliôs, você é o cara!";
         speech.text = finalText;
     }
 
@@ -103,6 +108,11 @@ function speakThis(message) {
 
     else if (message.includes('qual o meu saldo')) {
         const finalText = "Com a última atualização, seu saldo é de 1.570.000 dólares";
+        speech.text = finalText;
+    }
+
+    else if (message.includes('conselho')) {
+        const finalText = "Meu conselho é, fuja do Brasil enquanto há tempo";
         speech.text = finalText;
     }
     
@@ -283,3 +293,4 @@ function speakThis(message) {
 
     window.speechSynthesis.speak(speech);
 }
+
