@@ -122,7 +122,7 @@ function speakThis(message) {
     }
 
     else if (message.includes('código base')) {
-        const finalText = "acesso permitido, bem vindo senhor Filipe, agora você tem acesso total ao sistema";
+        const finalText = "Acesso permitido, bem vindo senhor Filipe, agora você tem acesso total ao sistema";
         speech.text = finalText;
     }
     
