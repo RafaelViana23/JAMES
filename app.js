@@ -116,13 +116,13 @@ function speakThis(message) {
         speech.text = finalText;
     } 
 
-    else if (message.includes('código base')) {
-        const finalText = "acesso permitido, bem vindo senhor Filipe, agora você tem acesso total ao sistema";
+     else if (message.includes('código chef')) {
+        const finalText = "Acesso permitido, bem vindo senhor Paulo, agora você tem acesso total ao sistema";
         speech.text = finalText;
     }
 
-    else if (message.includes('chef')) {
-        const finalText = "Acesso permitido, bem vindo senhor Paulo, agora você tem acesso total ao sistema";
+    else if (message.includes('código base')) {
+        const finalText = "acesso permitido, bem vindo senhor Filipe, agora você tem acesso total ao sistema";
         speech.text = finalText;
     }
     
