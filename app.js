@@ -121,8 +121,13 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-    else if (message.includes('código base')) {
-        const finalText = "Acesso permitido, bem vindo senhor Filipe, agora você tem acesso total ao sistema";
+    else if (message.includes('protocolo base')) {
+        const finalText = "Acesso permitido, bem vindo senhor Filepe, agora você tem acesso total ao sistema";
+        speech.text = finalText;
+    }
+
+    else if (message.includes('protocolo chefe')) {
+        const finalText = "Acesso permitido, bem vindo senhor Paulo, agora você tem acesso total ao sistema";
         speech.text = finalText;
     }
     
