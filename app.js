@@ -116,7 +116,7 @@ function speakThis(message) {
         speech.text = finalText;
     } 
 
-        if (message.includes('derrek') || message.includes('base')) {
+        if (message.includes('derrick') || message.includes('base')) {
         const finalText = "acesso permitido, bem vindo senhor Filipe, agora você tem acesso total ao sistema";
         speech.text = finalText;
     }
