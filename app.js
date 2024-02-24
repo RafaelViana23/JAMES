@@ -116,7 +116,7 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-    else if (message.includes('mande um pix')) {
+    else if (message.includes('mande um pix') || message.includes('mande um pics')) {
         const finalText = "Enviando pix de, 10.000 dólares para, pai, pix enviado com sucesso!";
         speech.text = finalText;
     }
