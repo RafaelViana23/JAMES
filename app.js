@@ -287,8 +287,11 @@ function speakThis(message) {
     }
 
     else {
-        window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
-        const finalText = "Eu encontrei algumas informações sobre " + message + " no google";
+        // Remover "james" da mensagem
+        const searchQuery = message.replace('james', '').trim();
+        window.open(`https://www.google.com/search?q=${encodeURIComponent(searchQuery)}`, "_blank");
+    
+        const finalText = "Eu encontrei algumas informações sobre " + searchQuery + " no Google";
         speech.text = finalText;
     }
 
