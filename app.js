@@ -115,6 +115,11 @@ function speakThis(message) {
         const finalText = "Meu conselho é, fuja do Brasil enquanto há tempo";
         speech.text = finalText;
     }
+
+    else if (message.includes('mande um pix')) {
+        const finalText = "Enviando pix de, 10.000 dólares para, pai, pix enviado com sucesso!";
+        speech.text = finalText;
+    }
     
     else if (message.includes('quem é você')) {
         const finalText = "Meu nome é James, sou um assistente virtual Senhor";
